@@ -3,8 +3,8 @@ import java.util.*;
 import java.sql.*;
 public class DigitalVotingSystem {
 	  private static final String url = "jdbc:mysql://localhost:3306/digitalvotingsystem";
-	    private static final String user = "root";
-	    private static final String pass = "Shital2002";
+	    private static final String user = "username";
+	    private static final String pass = "password";
 	  
 	    static Scanner sc = new Scanner(System.in);
 	   
