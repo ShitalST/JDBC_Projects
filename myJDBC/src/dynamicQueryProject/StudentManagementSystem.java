@@ -5,8 +5,8 @@ import java.util.*;
 
 public class StudentManagementSystem {
 	static final String url = "jdbc:mysql://localhost:3306/studentmanagement";
-     static final String user = "root";
-     static final String pass = "Shital2002";
+     static final String user = "username";
+     static final String pass = "password";
     
     static Scanner sc = new Scanner(System.in);
    
