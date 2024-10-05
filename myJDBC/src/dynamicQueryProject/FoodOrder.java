@@ -11,8 +11,8 @@ public class FoodOrder {
 //	static ResultSet rs=null;
 //	static PreparedStatement psmt=null;
 	static String url="jdbc:mysql://localhost:3306/foodOrder";
-	static String user="root";
-	static String pass="Shital2002";
+	static String user="username";
+	static String pass="password";
 	  private static Connection getConnection() throws SQLException {
 		  
 	        return DriverManager.getConnection(url, user,pass);
