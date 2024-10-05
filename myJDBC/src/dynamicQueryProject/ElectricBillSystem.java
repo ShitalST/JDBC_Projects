@@ -5,8 +5,8 @@ public class ElectricBillSystem {
 	
 	
     private static final String url = "jdbc:mysql://localhost:3306/electricitybill";
-    private static final String user = "root";
-    private static final String pass = "Shital2002";
+    private static final String user = "username";
+    private static final String pass = "password";
     static final double rate = 5.0; // Rate per unit for bill calculation
 
     static Scanner sc = new Scanner(System.in);
