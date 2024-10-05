@@ -8,7 +8,7 @@ public class Student {
 		
 			try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/staticQuery","root","Shital2002");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/staticQuery","root","password");
 			Statement stmt=con.createStatement();
 			stmt.executeUpdate("insert into student values(7,'Pritam','Pune')");
 			stmt.executeUpdate("delete from student where rollNo=2");
