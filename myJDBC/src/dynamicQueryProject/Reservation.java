@@ -15,7 +15,7 @@ public class Reservation {
 		String name,contact,ch;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dynamicQuery","root","Shital2002");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dynamicQuery","username","password");
 			stmt=con.createStatement();
 			do {
 				System.out.println("\n1.Reserve Room\n2.View Reservation\n3.Get Room Number\n4.Update Reservation\n5.Delete Reservation");
