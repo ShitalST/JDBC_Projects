@@ -16,7 +16,7 @@ public class Student {
 		int choice;
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dynamicQuery","root","Shital2002");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dynamicQuery","username","password");
 			stmt=con.createStatement();
 			ps1=con.prepareStatement("insert into student values (?,?,?)");
 			ps2=con.prepareStatement("update student set name=? where rollNo=?");
