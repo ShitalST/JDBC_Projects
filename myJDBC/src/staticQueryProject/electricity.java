@@ -6,7 +6,7 @@ public class electricity{
 
 static   Scanner sc=new Scanner(System.in);
 static String url="jdbc:mysql://localhost:3306/electricitybill";
-static String pass="Shital2002";
+static String pass="password";
 static String user="root";
 
   private static Connection getConnection() throws SQLException {
